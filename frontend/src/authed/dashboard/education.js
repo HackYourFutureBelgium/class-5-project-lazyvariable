@@ -105,7 +105,9 @@ const Education = ({ inputs, handleSubmit, handleInputChange, onDateChange }) =>
         </Form.Item>
         <Form.Item>
           <Button type="primary submit" onClick={handleSubmit}>
-            <a href="./skills">Next</a>
+            {/* <a href="./skills"> */}
+            Save
+            {/* </a> */}
           </Button>
         </Form.Item>
       </Form>
